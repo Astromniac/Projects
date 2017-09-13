@@ -1,6 +1,9 @@
 # http://dept.cs.williams.edu/~heeringa/classes/cs135/s15/readings/spigot.pdf
 # https://www.cut-the-knot.org/Curriculum/Algorithms/SpigotForPi.shtml
-num_digits = 40
+
+# Value to determine how many decimal places of Pi to generate
+num_digits = 10000
+
 first = [2 for i in range(int((num_digits*10)/3+1))]
 first = [x * 10 for x in first]
 
